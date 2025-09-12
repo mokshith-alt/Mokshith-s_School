@@ -1,0 +1,24 @@
+/* Styles.css */
+/* Basic styling for the body and the ball */
+/* help of youtube */
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ball 
+{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}

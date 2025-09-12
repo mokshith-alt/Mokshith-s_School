@@ -1,0 +1,9 @@
+    body {
+        background-color: black;
+        color: white;
+        font-family: sans-serif; /* Optional: for better readability */
+    }
+
+    h1 {
+        text-align: center;
+    }
