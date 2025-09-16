@@ -22,22 +22,22 @@ function refresh() {
 
 
 // html file
-const ball = document.getElementById('ball');
-document.addEventListener('keydown', handleKeyPress);
-let position = 0;
-
-function handleKeyPress(e) {
-  if (e.code === 'ArrowLeft') {
-    position = position - 10;
-  }
-  if (e.code === 'ArrowRight') {
-    position = position + 10;
-  }
-  if (position < 0) {
-    position = 0;
-  }
-  refresh();
-}
-function refresh() {
-  ball.style.left = position + 'px';
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      #ball {
+        background-color: blue;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="ball"></div>
+    <script src="gamelet.js"></script>
+  </body>
+</html>
